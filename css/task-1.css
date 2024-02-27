@@ -1,0 +1,50 @@
+:root {
+  --font-family: "Montserrat", sans-serif;
+}
+body {
+  font-family: Arial, sans-serif; /* Задає шрифт тексту на сторінці */
+  color: #333; /* Задає колір тексту */
+  background-color: #fff; /* Задає фоновий колір сторінки */
+  margin: 24px; /* Задає зовнішні відступи для body */
+  padding: 0; /* Задає внутрішні відступи для body */
+}
+ul#categories > li {
+  list-style: none; /* Приховує вбудований маркер списку */
+  padding: 16px;
+}
+h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin: 0;
+  margin-bottom: 16px;
+}
+.item {
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  height: 264px;
+  background: #f6f6fe;
+  margin-bottom: 24px;
+}
+ul {
+  padding: 0;
+}
+.list-item > li {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  list-style: none;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-bottom: 8px;
+  text-align: center;
+}
