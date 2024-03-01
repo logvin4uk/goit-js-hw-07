@@ -1,0 +1,14 @@
+img {
+  display: block;
+}
+ul {
+  padding: 100px 0;
+  max-width: 1128px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}

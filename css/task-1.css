@@ -5,9 +5,15 @@ body {
   font-family: Arial, sans-serif; /* Задає шрифт тексту на сторінці */
   color: #333; /* Задає колір тексту */
   background-color: #fff; /* Задає фоновий колір сторінки */
-  margin: 24px; /* Задає зовнішні відступи для body */
+  margin: 24px; /*Задає зовнішні відступи для body*/
   padding: 0; /* Задає внутрішні відступи для body */
 }
+ul#categories {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+}
+
 ul#categories > li {
   list-style: none; /* Приховує вбудований маркер списку */
   padding: 16px;
@@ -26,14 +32,21 @@ h2 {
   border-radius: 8px;
   padding: 16px;
   width: 392px;
-  height: 264px;
   background: #f6f6fe;
-  margin-bottom: 24px;
 }
 ul {
   padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.list-item {
+  display: flex;
+  gap: 8px;
 }
 .list-item > li {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
@@ -44,7 +57,4 @@ ul {
   border: 1px solid #808080;
   border-radius: 4px;
   width: 360px;
-  height: 40px;
-  margin-bottom: 8px;
-  text-align: center;
 }

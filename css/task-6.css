@@ -1,0 +1,50 @@
+#flex-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+#controls {
+  display: flex;
+  gap: 16px;
+  padding: 32px;
+  background: #f6f6fe;
+  justify-content: center;
+}
+input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 72px;
+  min-width: 150px;
+  text-align: center;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+div > button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  background: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+}
+div > button:last-child {
+  background: #ff4e4e;
+}
+#boxes {
+  display: flex;
+  gap: 16px;
+  padding: 32px;
+  background: #f6f6fe;
+  flex-wrap: wrap;
+  justify-content: center;
+}
